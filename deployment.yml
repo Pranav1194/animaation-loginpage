@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: animation-app
-        image: sawarkar/animation-page:latest
+        image: sawarkar/repoanimation:latest
         ports:
         - containerPort: 80
