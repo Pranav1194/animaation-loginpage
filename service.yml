@@ -7,6 +7,6 @@ spec:
     app: animation-app
   ports:
     - protocol: TCP
-      port: 80            # Exposed port for the service
-      targetPort: 80       # Port your container is listening on
-  type: NodePort            # Service type set to NodePort
+      port: 80            
+      targetPort: 80       
+  type: NodePort            
