@@ -22,7 +22,6 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'hellodocker', passwordVariable: 'passis', usernameVariable: 'usrname')]) {
                     script {
-                        // Perform Docker login using the credentials
                         sh "docker login -u $usrname -p $passis"
                     }
                 }
